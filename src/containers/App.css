@@ -1,5 +1,6 @@
 .TodoApp {
-    background-color: #F5F5F5;
+    background-color: rgba(230, 215, 193, 0.25);
+    box-shadow: 1px 1px 20px rgba(0,0,0, .4);
     color: #222;
     display: flex;
     flex-direction: column;
@@ -7,6 +8,8 @@
     justify-content:flex-start;
     align-items: center;
     align-content: center;
-    width: 100vw;
-    height: 100vh;
+    width: 800px;
+    min-height: 100vh;
+    height: auto;
+    margin: auto auto;
 }

@@ -1,0 +1,10 @@
+.tasksWrapper {
+    text-align: left;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.tasksWrapper > ul {
+    margin: 0;
+    padding: 0;
+}

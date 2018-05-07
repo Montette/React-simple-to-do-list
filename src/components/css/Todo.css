@@ -1,0 +1,35 @@
+.task {
+    list-style-type: none;
+    margin: 30px 0;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+
+}
+
+.removeButton {
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    box-shadow: none;
+    font-size: 20px;
+    color: transparent;
+    text-align: left;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.fas {
+    text-align: left;
+    line-height: 20px;
+}
+
+.removeButton:hover {
+    color:black;
+}
