@@ -1,6 +1,6 @@
 .Title {
     text-align: center;
-    font-family: 'Courgette', cursive;
+    font-family: 'Petit Formal Script', cursive;
 }
 
 h1 {
@@ -8,10 +8,12 @@ h1 {
     font-size: 42px;
     margin-top: 15px;
     margin-bottom: 0;
+    font-weight: 400;
 }
 
 h2 {
     font-weight: 400;
     margin-top: 6px;
     font-size: 22px;
+    color: rgb(75, 73, 73);
 }

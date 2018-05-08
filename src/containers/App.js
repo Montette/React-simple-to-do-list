@@ -6,6 +6,7 @@ import TodoList from '../components/TodoList';
 import Todo from '../components/Todo';
 import Form from '../components/Form';
 import { hot } from 'react-hot-loader';
+import img from '../../img/paper.png';
 
 class App extends React.Component {
     constructor(props){
@@ -17,7 +18,7 @@ class App extends React.Component {
                         text: 'learn React'
                     }, {
                     id: 2,
-                        text: 'cook dinner'
+                        text: 'bake a cake'
                     }, {
                     id: 3,
                         text: 'feed my dog'

@@ -1,5 +1,6 @@
 .TodoApp {
     background-color: rgba(230, 215, 193, 0.25);
+    background-image: url(../../img/paper.png);
     box-shadow: 1px 1px 20px rgba(0,0,0, .4);
     color: #222;
     display: flex;
@@ -13,4 +14,3 @@
     height: auto;
     margin: auto auto;
 }
-
