@@ -5,6 +5,7 @@ import Title from '../components/Title';
 import TodoList from '../components/TodoList';
 import Todo from '../components/Todo';
 import Form from '../components/Form';
+import { hot } from 'react-hot-loader';
 
 class App extends React.Component {
     constructor(props){
@@ -19,7 +20,7 @@ class App extends React.Component {
                         text: 'cook dinner'
                     }, {
                     id: 3,
-                        text: 'feed my cat'
+                        text: 'feed my dog'
                     }
             ]
         };
@@ -58,4 +59,4 @@ class App extends React.Component {
 }
 }
 
-export default App;
+export default hot(module)(App);
