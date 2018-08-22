@@ -23,7 +23,8 @@ class App extends React.Component {
                     id: 3,
                         text: 'feed my dog'
                     }
-            ]
+            ],
+            newTask: ''
         };
     }
     addTodo(val){
@@ -39,6 +40,16 @@ class App extends React.Component {
     const remainder = this.state.data.filter(todo => todo.id !== id);
     this.setState({data: remainder});
     }
+
+    onChangeHandle(event) {
+        this.setState({newTask: event.currentTarget.value});
+      }
+
+    onSubmit(event) {
+        this.addTodo(this.state.newTask);
+        event.preventDefault();
+        this.state.newTask = '';
+    }
     
     render() {
     return (
@@ -50,6 +61,9 @@ class App extends React.Component {
             <Form
                 data={this.state.data}
                 add = {this.addTodo.bind(this)}
+                placeholder = {"Add task..."}
+                onChange = {this.onChangeHandle.bind(this)}
+                onSubmit = {this.onSubmit.bind(this)}
             />
             <TodoList
                 data={this.state.data}
