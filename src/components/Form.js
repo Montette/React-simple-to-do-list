@@ -10,11 +10,10 @@ import style from './css/Form.css';
                 type="text"
                 placeholder={props.placeholder}
                 onChange={event => props.onChange(event)}
-                value={props.newTask}/>
+                value={props.inputValue}/>
                 <button className={style.addButton}>Add new task</button>
             </form>
-       )
-   
+       ) 
 }
 
 export default Form; 
